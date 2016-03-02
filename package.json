@@ -1,0 +1,19 @@
+{
+    "name": "ques-core",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha"
+    },
+    "engines": {
+        "node": ">=4.2.0"
+    },
+    "author": ["Daniel Yang", "Fishine Yuan"],
+    "license": "MIT",
+    "dependencies": {
+        "cheerio": "~0.20.0",
+        "lodash": "~4.5.1"
+    }
+}
+
