@@ -10,7 +10,7 @@ exports.find = require('./lib/find');
 
 exports.hash = require('./lib/hash');
 
-exports.replaceHolder = require('./lib/util').replaceHolder;
+exports.util = require('./lib/util');
 
 exports.cfg = function(cfg) {
     _.extend(config, cfg || {});
